@@ -26,7 +26,7 @@ hr.gradient {
 }
 
 #header-nav img {
-	max-height: 85px;
+	max-height: 102px;
 	margin-top: -10px;
 	margin-bottom: 20px;
 	float:left;
@@ -79,7 +79,8 @@ hr.gradient {
 }
 
 #carousel-slideshow .carousel-indicators {
-	bottom: -70px;
+	/*bottom: -70px;*/
+	bottom: 265px;
 }
 
 #carousel-slideshow .carousel-indicators li {
@@ -91,14 +92,17 @@ hr.gradient {
 }
 
 #carousel-slideshow h2 {
-	font-size: 40px;
-	color: #000000;
-	margin-bottom: 20px;
+	font-size: 50px;
+	color: #333333;
+	margin-bottom: 70px;
+	margin-top: 70px;
 }
 
 #carousel-slideshow p {
-	font-size: 20px;
-	color: #000000;
+	font-size: 18px;
+	color: #333333;
+	line-height: 32px;
+	padding: 0px 50px; 
 }
 
 .carousel-caption img.icon {
@@ -262,7 +266,8 @@ hr.gradient {
 }
 
 #amenities-container h2 {
-	font-size: 40px;
+	font-size: 50px;
+	color: #333333;
 }
 
 #amenities-container .col-lg-6.half-image img {
@@ -280,12 +285,12 @@ hr.gradient {
 #amenities-container .col-lg-6.half-text p {
 	line-height: 150%;
 	margin-left: -30px;
-	color: #4f4f4f;
+	color: #333333;
 }
 
 #location-container {
 	margin-top: 80px;
-	color: #4f4f4f;
+	color: #333333;
 }
 
 #location-container h2 {
@@ -324,7 +329,7 @@ hr.gradient {
 }
  
 #header-menu a {
-    color:#000;
+    color:#333333;
     transition:color linear 0.15s;
 }
  
