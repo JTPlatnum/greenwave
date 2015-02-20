@@ -80,7 +80,7 @@ hr.gradient {
 
 #carousel-slideshow .carousel-indicators {
 	/*bottom: -70px;*/
-	bottom: 265px;
+	bottom: 0px;
 }
 
 #carousel-slideshow .carousel-indicators li {
