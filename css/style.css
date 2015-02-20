@@ -328,6 +328,7 @@ hr.gradient {
     float:left;
     list-style:none;
     font-size:17px;
+    width: 100%;
 }
  
 #header-menu li:last-child {
@@ -445,6 +446,10 @@ hr.gradient {
 
 	p {
 		padding: 0px 40px;
+	}
+
+	.carousel-slideshow {
+		margin-bottom: 250px;
 	}
 
 	#copyright {
