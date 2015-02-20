@@ -26,7 +26,7 @@ hr.gradient {
 }
 
 #header-nav img {
-	max-height: 102px;
+	max-height: 85px;
 	margin-top: -10px;
 	margin-bottom: 20px;
 	float:left;
@@ -92,7 +92,7 @@ hr.gradient {
 }
 
 #carousel-slideshow h2 {
-	font-size: 50px;
+	font-size: 40px;
 	color: #333333;
 	margin-bottom: 70px;
 	margin-top: 70px;
@@ -172,9 +172,7 @@ hr.gradient {
 	text-align: left;
 	padding-left: 30px;
 	background: #42454e;
-	/*color: white;*/
 	text-transform: uppercase;
-	/*height: 319px;*/
 }
 
 #footer-container div #mc_embed_signup {
@@ -221,7 +219,8 @@ hr.gradient {
 }
 
 #footer-container p {
-	margin-left: -43px;
+	margin-left: -80px;
+	color: #7e8b8c;
 }
 
 #footer-container ul {
@@ -238,18 +237,18 @@ hr.gradient {
 #footer-container span {
 	font-size: 18px;
 	color: #a9ddda;
-	font-style: italic;
 	text-transform: none;
 }
 
 #copyright {
 	background: #373a41;
 	color: #ffffff;
-	font-size: 12.5px;
+	font-size: 13px;
 	font-weight: normal;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	height: 53px;
+	height: 54px;
+	line-height: 150%;
 }
 
 
@@ -266,7 +265,7 @@ hr.gradient {
 }
 
 #amenities-container h2 {
-	font-size: 50px;
+	font-size: 40px;
 	color: #333333;
 }
 
@@ -276,27 +275,30 @@ hr.gradient {
 }
 
 #amenities-container .col-lg-6.half-text h3 {
-	padding-left: 50px;
+	padding-left: 20px;
 	padding-top: 60px;
 	padding-bottom: 40px;
-	color: #4f4f4f;
+	color: #333333;
 }
 
 #amenities-container .col-lg-6.half-text p {
 	line-height: 150%;
-	margin-left: -30px;
+	margin-left: -60px;
 	color: #333333;
 }
 
+#amenities-container h2 {
+	margin: 98px 0px;
+}
+
 #location-container {
-	margin-top: 80px;
 	color: #333333;
 }
 
 #location-container h2 {
 	font-size: 40px;
-	margin-top: 80px;
-	margin-bottom: 70px;
+	margin-top: 118px;
+	margin-bottom: 118px;
 }
 
 #location-container img {
