@@ -63,24 +63,29 @@ hr.gradient {
 
 #carousel-slideshow {
 	margin-bottom: 150px;
+	position: relative;
+	height: 0;
+	padding-bottom: 75%;
 }
 
 #carousel-slideshow .carousel-caption {
 	position: relative;
-	padding-bottom: 0px;
 	right: auto;
 	left: auto;
-}
-
-#carousel-slideshow .carousel-caption {
+	height: 300px;
 	text-shadow: none;
 	padding-bottom: 20px;
 	padding-top: 40px;
 }
 
-#carousel-slideshow .carousel-indicators {
-	/*bottom: -70px;*/
-	bottom: 0px;
+.carousel-indicators {
+	position: relative;
+	top: 60%;
+}
+
+.carousel-indicators, .carousel-inner {
+	clear:both; 
+	margin: auto;
 }
 
 #carousel-slideshow .carousel-indicators li {
@@ -243,11 +248,11 @@ hr.gradient {
 #copyright {
 	background: #373a41;
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: normal;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	height: 54px;
+	height: 60px;
 	line-height: 150%;
 }
 
@@ -411,6 +416,7 @@ hr.gradient {
         text-decoration:none;
         color:#66a992;
     }
+
 }
 /*END Hamburger Menu CSS*/
 
@@ -420,4 +426,28 @@ hr.gradient {
 }
 */
 
+@media screen and (max-width : 667px) { 
 
+	#amenities-container .col-lg-6.half-text {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	#amenities-container .col-lg-6.half-text p {
+		margin-left: 0px;
+	}
+
+	p {
+		padding: 0px 40px;
+	}
+
+	#copyright {
+		font-size: 10px;
+		height: 100px;
+		line-height: 200%;
+	}
+
+	#footer-container p {
+		padding: 0px 80px;
+	}
+}
