@@ -65,6 +65,7 @@ hr.gradient {
 	position: relative;
 	height: 0;
 	padding-bottom: 75%;
+	margin-bottom: 150px;
 }
 
 #carousel-slideshow .carousel-caption {
@@ -328,7 +329,6 @@ hr.gradient {
     float:left;
     list-style:none;
     font-size:17px;
-    width: 100%;
 }
  
 #header-menu li:last-child {
@@ -370,6 +370,10 @@ hr.gradient {
         z-index:999;
         border: 1px solid black;
     }
+
+    #header-menu li {
+	    width: 100%;
+	}
 
     #header-menu ul li span {
     	display: none;
@@ -448,8 +452,19 @@ hr.gradient {
 		padding: 0px 40px;
 	}
 
-	.carousel-slideshow {
+	#carousel-slideshow {
 		margin-bottom: 250px;
+	}
+
+	#carousel-slideshow h2 {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#carousel-slideshow p {
+		font-size: 15px;
+		line-height: 30px;
+		padding: 0px 10px;
 	}
 
 	#copyright {
