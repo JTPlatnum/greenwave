@@ -426,6 +426,13 @@ hr.gradient {
 }
 */
 
+@media screen and (max-width: 860px){
+		#header-menu li {
+		width: 100%;
+	}
+}
+
+
 @media screen and (max-width : 667px) { 
 
 	#amenities-container .col-lg-6.half-text {
@@ -450,4 +457,5 @@ hr.gradient {
 	#footer-container p {
 		padding: 0px 80px;
 	}
+
 }
