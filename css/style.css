@@ -458,4 +458,18 @@ hr.gradient {
 		padding: 0px 80px;
 	}
 
+	#carousel-slideshow {
+		margin-bottom: 200px;
+	}
+
+	#carousel-slideshow h2 {
+		margin: 15px 0px;
+		font-size: 30px;
+	}
+
+	#carousel-slideshow p {
+		font-size: 15px;
+		line-height: 125%;
+	}
+
 }
