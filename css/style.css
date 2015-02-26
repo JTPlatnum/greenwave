@@ -437,7 +437,7 @@ hr.gradient {
 }
 
 
-@media screen and (max-width : 667px) { 
+@media screen and (max-width : 768px) { 
 
 	#amenities-container .col-lg-6.half-text {
 		text-align: center;
