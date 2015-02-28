@@ -67,6 +67,13 @@ hr.gradient {
 	margin-bottom: 50px;
 }
 
+#carousel-slideshow.product {
+	position: relative;
+	height: auto;
+	padding-bottom: 0%;
+	margin-bottom: 50px;
+}
+
 #carousel-slideshow.tight {
 	padding-bottom: 65%;
 	margin-bottom: 50px;
@@ -359,7 +366,7 @@ table {
 	font-size: 40px;
 	color: #333333;
 	margin-bottom: 60px;
-	margin-top: 90px;
+/*	margin-top: 90px;*/
 	font-family: "Lato", arial, sans-serif;
 
 }
