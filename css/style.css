@@ -277,29 +277,29 @@ hr.gradient {
 }
  
 
-#amenities-container {
+#amenities-container, #recipes-container {
 	background: #f7f7f7;
 }
 
-#amenities-container h2 {
+#amenities-container h2, #recipes-container h2 {
 	font-size: 40px;
 	color: #333333;
 	margin: 80px 0px;
 }
 
-#amenities-container .col-lg-6.half-image img {
+#amenities-container .col-lg-6.half-image img, #recipes-container .col-lg-6.half-image img {
 	max-width: 100%;
 	padding: 20px 20px 20px 50px;
 }
 
-#amenities-container .col-lg-6.half-text h3 {
+#amenities-container .col-lg-6.half-text h3, #recipes-container .col-lg-6.half-text h3 {
 	padding-left: 20px;
 	/*padding-top: 60px;*/
 	padding-bottom: 10px;
 	color: #333333;
 }
 
-#amenities-container .col-lg-6.half-text p {
+#amenities-container .col-lg-6.half-text p, #recipes-container .col-lg-6.half-text p {
 	line-height: 150%;
 	margin-left: -60px;
 	color: #333333;
@@ -478,12 +478,12 @@ table {
 
 @media screen and (max-width : 768px) { 
 
-	#amenities-container .col-lg-6.half-text {
+	#amenities-container .col-lg-6.half-text, #recipes-container .col-lg-6.half-text {
 		text-align: center;
 		margin-left: 0px;
 	}
 
-	#amenities-container .col-lg-6.half-text p {
+	#amenities-container .col-lg-6.half-text p, #recipes-container .col-lg-6.half-text p {
 		margin-left: 0px;
 	}
 
