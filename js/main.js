@@ -18,5 +18,14 @@ $( document ).ready(function() {
         $('#hiddenRecipeTwo').toggleClass('active');
     });
 
+
+    $('#thumbRecipeThree').on('click', function(){
+        $('#hiddenRecipeThree').toggleClass('active');
+    });
+
+    $('#thumbRecipeFour').on('click', function(){
+        $('#hiddenRecipeFour').toggleClass('active');
+    });
+
 });
 
