@@ -319,6 +319,17 @@ hr.gradient {
 	margin-bottom: 150px;
 }
 
+.recipes #carousel-slideshow {
+	position: relative;
+	height: 0;
+	padding-bottom: 100%;
+	margin-bottom: 50px;
+}
+
+.recipes #recipes-container .row {
+	cursor: pointer;
+}
+
 /*----- Menu -----*/
 @media screen and (min-width: 860px) {
     #header-menu {
@@ -520,3 +531,25 @@ table {
 	}
 
 }
+
+/*Recipes page*/
+
+.thumbRecipe {
+	cursor: pointer;
+}
+
+.hiddenRecipe {
+	display: none;
+	background: #777;
+}
+
+.hiddenRecipe.active {
+	display: block;
+	cursor: default;
+	text-align: center;
+}
+
+.hiddenRecipe ul {
+		list-style-type: none;
+}
+

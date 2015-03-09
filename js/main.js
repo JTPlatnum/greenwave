@@ -10,4 +10,13 @@ $( document ).ready(function() {
         e.preventDefault();
     });
 
+    $('#thumbRecipeOne').on('click', function(){
+        $('#hiddenRecipeOne').toggleClass('active');
+    });
+
+    $('#thumbRecipeTwo').on('click', function(){
+        $('#hiddenRecipeTwo').toggleClass('active');
+    });
+
 });
+
