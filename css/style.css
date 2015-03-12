@@ -326,9 +326,9 @@ hr.gradient {
 	margin-bottom: 50px;
 }
 
-.recipes #recipes-container .row {
+/*.recipes #recipes-container .row {
 	cursor: pointer;
-}
+}*/
 
 /*----- Menu -----*/
 @media screen and (min-width: 860px) {
@@ -530,13 +530,19 @@ table {
 		padding: 0px 80px;
 	}
 
+	.recipeContainer .directionsCont {
+		padding: 30px;
+	}
+
+	.recipeContainer .directionsCont small {
+		margin-left: 30px;
+		display: inline-block;
+		padding: 0px;
+	}
+
 }
 
 /*Recipes page*/
-
-.thumbRecipe {
-	cursor: pointer;
-}
 
 .hiddenRecipe {
 	display: none;
@@ -546,10 +552,43 @@ table {
 .hiddenRecipe.active {
 	display: block;
 	cursor: default;
-	text-align: center;
+	background-color: white;
+	padding: 80px 10px;
+}
+
+.hiddenRecipe p {
+	padding: 0px;
+	padding-left: 40px;
+}
+
+.hiddenRecipe p.directions {
+	padding-left: 20px;
 }
 
 .hiddenRecipe ul {
-		list-style-type: none;
+	list-style-type: none;
+}
+
+.getRecipe {
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.getRecipe:hover {
+	text-decoration: underline;
+}
+
+#thumbRecipeFour {
+	padding-bottom: 80px;
+}
+
+.directionsCont {
+	padding-right: 250px;
+}
+
+.directionsCont small {
+	margin-left: 20px;
+	display: inline-block;
+	padding-right: 250px;
 }
 

@@ -10,20 +10,20 @@ $( document ).ready(function() {
         e.preventDefault();
     });
 
-    $('#thumbRecipeOne').on('click', function(){
+    $('#thumbRecipeOne .getRecipe').on('click', function(){
         $('#hiddenRecipeOne').toggleClass('active');
     });
 
-    $('#thumbRecipeTwo').on('click', function(){
+    $('#thumbRecipeTwo .getRecipe').on('click', function(){
         $('#hiddenRecipeTwo').toggleClass('active');
     });
 
 
-    $('#thumbRecipeThree').on('click', function(){
+    $('#thumbRecipeThree .getRecipe').on('click', function(){
         $('#hiddenRecipeThree').toggleClass('active');
     });
 
-    $('#thumbRecipeFour').on('click', function(){
+    $('#thumbRecipeFour .getRecipe').on('click', function(){
         $('#hiddenRecipeFour').toggleClass('active');
     });
 
