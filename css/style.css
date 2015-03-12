@@ -65,6 +65,7 @@ hr.gradient {
 	height: 0;
 	padding-bottom: 70%;
 	margin-bottom: 50px;
+	margin-top: 30px;
 }
 
 #carousel-slideshow.product {
@@ -400,6 +401,10 @@ table {
  
     #header-menu ul.active {
         display:none;
+    }
+
+    #header-nav img {
+    	max-height: 50px;
     }
  
     #header-menu ul {
